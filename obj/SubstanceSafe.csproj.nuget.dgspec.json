@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {}
+    "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {
+    "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
+        "projectUniqueName": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
         "projectName": "SubstanceSafe",
-        "projectPath": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
+        "projectPath": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\obj\\",
+        "outputPath": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -69,7 +73,7 @@
           "warn": true,
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
-              "privateAssets": "all"
+              "privateAssets": "none"
             },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

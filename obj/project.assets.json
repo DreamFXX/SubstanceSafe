@@ -71,7 +71,8 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.3"
+      "Microsoft.AspNetCore.OpenApi >= 9.0.3",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.0"
     ]
   },
   "packageFolders": {
@@ -81,11 +82,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
+      "projectUniqueName": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
       "projectName": "SubstanceSafe",
-      "projectPath": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
+      "projectPath": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
       "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\obj\\",
+      "outputPath": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,6 +129,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[8.0.0, )"
           }
         },
         "imports": [
@@ -152,5 +157,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Nejde vyřešit Microsoft.EntityFrameworkCore.Sqlite (>= 8.0.0) pro net9.0. PackageSourceMapping je povolené, následující zdroje se nezvažovaly C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

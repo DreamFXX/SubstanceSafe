@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "s0EG53eQzak=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
+  "dgSpecHash": "RlvKkWyP3pg=",
+  "success": false,
+  "projectFilePath": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.3\\microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Nejde vyřešit Microsoft.EntityFrameworkCore.Sqlite (>= 8.0.0) pro net9.0. PackageSourceMapping je povolené, následující zdroje se nezvažovaly C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }
