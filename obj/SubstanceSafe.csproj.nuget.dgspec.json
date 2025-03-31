@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {}
+    "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {}
   },
   "projects": {
-    "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {
+    "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
+        "projectUniqueName": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
         "projectName": "SubstanceSafe",
-        "projectPath": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
+        "projectPath": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\obj\\",
+        "outputPath": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -55,9 +49,15 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [

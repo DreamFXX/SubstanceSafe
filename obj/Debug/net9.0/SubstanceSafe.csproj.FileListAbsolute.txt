@@ -1,0 +1,8 @@
+C:\Users\marti\source\repos\SubstanceSafe\obj\Debug\net9.0\SubstanceSafe.csproj.AssemblyReference.cache
+C:\Users\marti\source\repos\SubstanceSafe\obj\Debug\net9.0\SubstanceSafe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\source\repos\SubstanceSafe\obj\Debug\net9.0\SubstanceSafe.AssemblyInfoInputs.cache
+C:\Users\marti\source\repos\SubstanceSafe\obj\Debug\net9.0\SubstanceSafe.AssemblyInfo.cs
+C:\Users\marti\source\repos\SubstanceSafe\obj\Debug\net9.0\SubstanceSafe.csproj.CoreCompileInputs.cache
+C:\Users\marti\source\repos\SubstanceSafe\obj\Debug\net9.0\SubstanceSafe.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\marti\source\repos\SubstanceSafe\obj\Debug\net9.0\SubstanceSafe.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marti\source\repos\SubstanceSafe\obj\Debug\net9.0\SubstanceSafe.sourcelink.json
