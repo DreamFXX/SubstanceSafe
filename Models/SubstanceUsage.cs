@@ -11,7 +11,7 @@ namespace SubstanceSafe.Models
         public int SubstanceTypeId { get; set; }
 
         public DateTime UsageDate { get; set; } = DateTime.UtcNow;
-        public string? Notes { get; set; } 
+        public string? Notes { get; set; }
         public decimal Amount { get; set; } // Use decimal for potentially fractional amounts
         public string Unit { get; set; } = string.Empty; // Unit might differ from default
 

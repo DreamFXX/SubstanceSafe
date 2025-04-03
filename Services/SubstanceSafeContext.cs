@@ -29,6 +29,5 @@ public class SubstancesDbContext : DbContext
                 .IsUnique();
 
             // Add any other configurations here
-        }
     }
 }
