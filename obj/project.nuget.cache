@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2xIik3Ux5OA=",
+  "dgSpecHash": "u9wX01MGTFU=",
   "success": true,
-  "projectFilePath": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
+  "projectFilePath": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {}
+    "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {}
   },
   "projects": {
-    "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {
+    "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
+        "projectUniqueName": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
         "projectName": "SubstanceSafe",
-        "projectPath": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
+        "projectPath": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\SubstanceSafe.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\marti\\source\\repos\\SubstanceSafe\\obj\\",
+        "outputPath": "C:\\Users\\marti\\source\\repos\\SubstanceSafe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config"
