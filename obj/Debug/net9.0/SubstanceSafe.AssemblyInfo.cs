@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubstanceSafe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2038a0e10bcf11aaf236ce1a3f3057bb87bb3af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+130d585808e8f36613e256068779e960aa26a40c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubstanceSafe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubstanceSafe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

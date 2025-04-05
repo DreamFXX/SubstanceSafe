@@ -6,7 +6,6 @@ namespace SubstanceSafe.Services;
 public class SubstancesDbContext : DbContext
 {
     public SubstancesDbContext(DbContextOptions<SubstancesDbContext> options) : base(options)
-    {
     }
 
     public DbSet<SubstanceUsage> SubstanceUsages { get; set; } = null!;
@@ -23,11 +22,10 @@ public class SubstancesDbContext : DbContext
             .HasIndex(c => c.Name)
             .IsUnique();
 
-        // Example: Ensure Type Name is unique within a Category
-        modelBuilder.Entity<SubstanceType>()
+// Example: Ensure Type Name is unique within a Category
+        m        odelBuilder.Entity<SubstanceType>()
             .HasIndex(t => new { t.CategoryId, t.Name })
                 .IsUnique();
 
-            // Add any other configurations here
     }
 }
